@@ -116,7 +116,7 @@ export default function GalleryPage() {
               Photo Gallery
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Capturing moments of learning, growth, and joy at Oracles School
+              Capturing moments of learning, growth, and joy at Oracles Nursery & Primary School
             </p>
           </div>
         </div>

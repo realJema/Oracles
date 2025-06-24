@@ -1,36 +1,123 @@
-    This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Oracles Nursery & Primary School Website
+
+This is the official website for Oracles Nursery & Primary School, an initiative of the Essungue Ejuma Foundation. The website serves as a comprehensive platform for our school community, providing information about our educational programs, admissions, events, and foundation activities.
+
+## About Us
+
+Oracles Nursery & Primary School, located in Cameroon, is dedicated to providing quality education and fostering the development of young minds. Our school, supported by the Essungue Ejuma Foundation, focuses on delivering comprehensive education while maintaining strong ties with our local community.
+
+## Features
+
+- **School Information**: Detailed information about our educational approach and programs
+- **Admissions**: Complete admissions process and requirements
+- **Events & Activities**: Calendar of school events and extracurricular activities
+- **Foundation**: Information about the Essungue Ejuma Foundation's mission and projects
+- **Gallery**: Photo gallery showcasing school activities and events
+- **Contact Information**: Easy access to contact details and location information
+
+## Technology Stack
+
+- **Frontend Framework**: Next.js 14
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **Image Optimization**: Next.js Image Component
+- **Icons**: Custom SVG icons
+- **Development**: TypeScript
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (v18.17 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   cd ejuma
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory and add the following variables:
+```env
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+ejuma/
+├── public/          # Static files (images, favicon)
+├── src/
+│   ├── app/        # Next.js app directory
+│   │   ├── components/  # Reusable components
+│   │   ├── contexts/   # React contexts
+│   │   └── [routes]/   # Page routes
+│   └── styles/     # Global styles
+├── scripts/        # Utility scripts
+└── package.json    # Project dependencies
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development
 
-## Learn More
+### Code Style
 
-To learn more about Next.js, take a look at the following resources:
+- TypeScript for type safety
+- ESLint for code linting
+- Prettier for code formatting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Building for Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+# or
+yarn build
+```
 
-## Deploy on Vercel
+### Running Production Build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run start
+# or
+yarn start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+
+- School Email: info@oraclesschool.com
+- Foundation Email: contact@essungueejuma.org
+
+## License
+
+This project is proprietary and confidential. All rights reserved.
+
+---
+
+Built with ❤️ for Oracles Nursery & Primary School and the Essungue Ejuma Foundation

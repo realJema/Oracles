@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Activities & Events | Oracles School",
+  title: "Activities & Events | Oracles Nursery & Primary School",
   description: "Discover the exciting activities, events, and programs that make learning fun at Oracles Nursery & Primary School.",
 };
 
